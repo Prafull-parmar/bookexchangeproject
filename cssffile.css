@@ -1,0 +1,36 @@
+
+h1{
+color: yellow;
+text-align: center;
+
+}
+
+
+.register {
+ position:absolute;
+ border: 5px none gray;
+
+ left:25%;
+ right:25%;
+ top:30%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	color: green;
+
+}
+.register input{
+  overflow: auto;
+float:right;
+padding:10px;
+border: 1px solid gray;
+
+background-color:light-gray;
+}
+.register label{
+  padding:10px;
+	float:left;
+	border: 1px none ;
+
+	color: inherit;
+}

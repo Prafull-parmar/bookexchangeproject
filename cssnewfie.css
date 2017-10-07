@@ -1,0 +1,158 @@
+body {
+
+}
+
+.jumbotron {
+	color:#7f8c8d;
+	margin:0;
+	padding:5px;
+	background-color:#232f3e;#2c3e50;
+  
+  
+	 text-shadow:1px 1px 0.5px white; 
+}
+.jumbotron img{
+ position:relative;  
+ left:1%;
+ top : 1%;
+ float:left;
+  width: 100px;
+  height:80%;
+  padding:1px;
+  margin:1px;
+
+}
+.table thead{
+  font-size: 17px;
+  background-color: #5c7ba3;/*#4dff4d;/*#80ff80; */
+   text-shadow:-0.5px 0.5px 0px #9daec8; 
+}
+.thumbnail{
+  float:left;  
+   box-shadow: -5px 5px 10px #253141;
+}
+.bookpan{
+ position:relative;
+ top:-20px;
+  background-color:#dee5ed;/*#eff2f6;*/
+   text-shadow:-2px 2px 3px white; 
+   overflow:auto; 
+}
+.uhome{
+  padding:10px;
+}
+.carousel{
+  position:relative;
+  top:-29px;
+
+  margin:0 auto;
+  height:430px;
+  background-color: #253141;
+
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+       height:430px;
+     
+      margin: 0 auto;
+  }
+.carousel-caption > a {
+  color:white;
+}
+
+  
+#panhead{
+  background-color: #3f5973;/*#2c3e50;#517394*/
+  font-size:50px;
+  text-align:center;
+}
+.book{
+  margin:0; 
+  padding:1px;
+  border-radius: 5px;
+  border-top-left-radius: 20px;
+  box-shadow: 0px 1px 0px #ad392d,inset 0px 1px 0px white;
+   box-shadow: -10px 10px 10px;
+
+}
+
+.panel{
+	margin:0 auto;
+	padding:5px;
+}
+
+.navbar {
+      margin-bottom: 0;
+
+      border-radius: 1px;
+    }
+ 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+    	height: 750px;
+      }
+    
+    /* Set gray background color and 100% height */
+    .midnav{
+
+      padding-bottom: 1px;
+    
+      height:100%;
+      overflow:auto;
+    }
+    #gallery{
+      margin:0;
+      padding:5px;
+      overflow:scroll;
+      height:450px;
+    }
+    
+    .sidenav {
+    
+      padding-top: 5px;
+      background: linear-gradient(to bottom, #2c3e50 0%, #b3ccff 88%);
+      /*background-color:#b3ccff;
+      /*#f1f1f1;*/
+   
+      height: 100%;
+    }
+  .panel-default{
+      padding:0px;
+      box-shadow: -8px 8px 10px #253141;
+
+
+    }
+  .panel-default .panel-heading{
+      background-color: #7b97b7;
+       text-shadow:-2px 2px 3px #8ca7c0;/* #486684;*/
+       font-size: 20px; 
+    }
+   .list-group  a:hover{
+    background-color: #b3e0ff;
+   }
+   .list-group >.list-group-item a:active{
+    background-color:  #66c2ff;
+   }
+   .navbar-inverse{
+
+   }
+     .navbar-inverse .navbar-header.navbar-brand >li >a:hover,.navbar-inverse .nav >li >a:hover{
+    background-color:#660000;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color:#232f3e;/* #555;*/
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+  }
